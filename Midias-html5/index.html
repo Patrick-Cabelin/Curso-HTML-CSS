@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias Em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmicas</h1>
+    <p>IAI campeão, como num da para tu abri em vazio dispositivos, então altere o tamanho do egde, Aqui é o inicio da ideia de site responsivo</p>
+    
+    <picture>
+        <!--Ordem dos source é na crescente, menor pra maior-->
+        <source media="(max-width: 750px )" srcset="ibagëm/ibagempequena-300.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="ibagëm/Ibagemmedio-700.png" type="image/png">
+        <img src="ibagëm/Ibagemgrande-1000.png" alt="Uma Ibagem Grande com 1000por1000">
+    </picture>
+    <H1>Reprodução de audios...</H1>
+    <p>Vamos meter um audio de fundo.</p>
+    <audio preload="metadata" controls>
+        <source src="midia/escapism-yung-logos.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Agora hospesdagem local de video</h1>
+    <video controls width="560" height="315" loop >
+        <source src="midia/mar.mp4" type="video/mp4">
+        <!--Quando mais arquivo melhor pela compartibilidade com o usuario-->
+    </video>
+    
+    <h1>Videos direto do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-D_bcvnMBDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5SwOa6qab5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EKLWC93nvAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
