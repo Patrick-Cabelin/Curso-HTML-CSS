@@ -3,7 +3,7 @@
 /* Modo retrato */
 
 body{
-    background: url("ibagens/cev-portrait.jpg") no-repeat;
+    background: url(ibagens/cev-portrait.jpg) no-repeat;
     background-position: left bottom;
-    
+
 }
